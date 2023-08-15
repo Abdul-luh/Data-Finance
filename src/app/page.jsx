@@ -2,12 +2,14 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import Analytics from "./components/Analytics/Analytics";
 
 export default function Home() {
 	return (
 		<main className="">
 			<Navbar />
 			<Hero />
+			<Analytics />
 		</main>
 	);
 }
