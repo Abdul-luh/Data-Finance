@@ -28,7 +28,7 @@ const Analytics = () => {
 						sed cumque provident eveniet quos, recusandae necessitatibus
 						officiis.
 					</p>
-					<button className="bg-black text-[#00df9a] rounded-md font-mediun my-6 md:mx-0 mx-auto px-2 py-3">
+					<button className="bg-black text-[#00df9a] rounded-md font-mediun my-6 md:mx-0 mx-auto px-6 py-3">
 						Get Started
 					</button>
 				</div>

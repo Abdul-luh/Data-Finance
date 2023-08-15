@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Analytics from "./components/Analytics/Analytics";
+import NewsLetter from "./components/Newsletter/NewsLetter";
 
 export default function Home() {
 	return (
@@ -10,6 +11,7 @@ export default function Home() {
 			<Navbar />
 			<Hero />
 			<Analytics />
+			<NewsLetter />
 		</main>
 	);
 }
