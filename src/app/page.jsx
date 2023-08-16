@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Analytics from "./components/Analytics/Analytics";
 import NewsLetter from "./components/Newsletter/NewsLetter";
+import Cards from "./components/Cards/Cards";
 
 export default function Home() {
 	return (
@@ -12,6 +13,7 @@ export default function Home() {
 			<Hero />
 			<Analytics />
 			<NewsLetter />
+			<Cards />
 		</main>
 	);
 }
