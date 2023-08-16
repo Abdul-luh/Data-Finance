@@ -14,13 +14,14 @@ const Navbar = () => {
 			<h1 className="w-full text-3xl font-bold text-[#00df9a]">
 				Data-Finance.
 			</h1>
-			<ul className="hidden md:flex ">
-				<li className="p-4">Home</li>
-				<li className="p-4">Company</li>
-				<li className="p-4">Resources</li>
-				<li className="p-4">About</li>
-				<li className="p-4">Contact</li>
+			<ul className="hidden md:flex justify-center text-start">
+				<li className="p-4 cursor-pointer capitalize">Home</li>
+				<li className="p-4 cursor-pointer capitalize">account</li>
+				<li className="p-4 cursor-pointer capitalize">Login</li>
 			</ul>
+			<button className="p-2 capitalize rounded-md m-atuo bg-white w-[200px] text-black hidden md:block">
+				get started
+			</button>
 			<div className="md:hidden" onClick={handleNav}>
 				{!nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />}
 			</div>

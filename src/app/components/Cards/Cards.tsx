@@ -51,11 +51,11 @@ const Cards = () => {
 							key={prop.price}
 							className={
 								prop.head.toLowerCase() === "double user"
-									? "w-full shadow-xl bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-500 ease-in-out"
+									? "w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-4 rounded-lg hover:scale-105 duration-500 ease-in-out"
 									: "w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-500 ease-in-out"
 							}>
 							<Image
-								className="mx-auto -mt-12 bg-white w-20"
+								className="mx-auto -mt-12 w-20"
 								src={prop.img}
 								alt="single-person"
 							/>

@@ -17,7 +17,7 @@ const Hero = () => {
 					</p>
 					<Typed
 						className="md:text-5xl sm:text-4xl text-xl md:pl-4 pl-2 text-gray-500"
-						strings={["BTB", "BTC", "SASS"]}
+						strings={["BTB", "BTC", "SAAS"]}
 						typeSpeed={120}
 						backSpeed={140}
 						loop
@@ -28,7 +28,7 @@ const Hero = () => {
 					platforms.
 				</p>
 
-				<button className="bg-[#00df9a] rounded-md font-mediun my-6 mx-auto px-6 py-3 text-black">
+				<button className="bg-[#00df9a] rounded-md font-mediun my-6 mx-auto px-8 py-3 text-black">
 					Get Started
 				</button>
 			</div>

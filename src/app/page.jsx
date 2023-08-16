@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Analytics from "./components/Analytics/Analytics";
 import NewsLetter from "./components/Newsletter/NewsLetter";
 import Cards from "./components/Cards/Cards";
+import Footer from "./components/Footer/Footer";
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<Analytics />
 			<NewsLetter />
 			<Cards />
+			<Footer />
 		</main>
 	);
 }
